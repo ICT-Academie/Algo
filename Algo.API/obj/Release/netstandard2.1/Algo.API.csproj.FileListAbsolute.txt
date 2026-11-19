@@ -1,0 +1,9 @@
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\bin\Release\netstandard2.1\Algo.API.deps.json
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\bin\Release\netstandard2.1\Algo.API.dll
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\bin\Release\netstandard2.1\Algo.API.pdb
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.AssemblyInfoInputs.cache
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.AssemblyInfo.cs
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.csproj.CoreCompileInputs.cache
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.dll
+C:\Users\TLY1906\.gemini\antigravity\scratch\Algo-Student-Repo\Algo.API\obj\Release\netstandard2.1\Algo.API.pdb

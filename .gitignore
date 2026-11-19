@@ -5,15 +5,11 @@
 *.userosscache
 *.sln.docstates
 
-# Ignore compiler obj folders
-**/obj/
+# Ignore compiler bin and obj folders for C# projects
+Algo.StarterBot/bin/
+Algo.StarterBot/obj/
+Algo.API/bin/
+Algo.API/obj/
 
-# Ignore Unity temporary folders if any
-Library/
-Temp/
-Logs/
-
-# Keep Game/Bots and compiled DLLs so students can run immediately after cloning!
-!Game/**
-!Algo.StarterBot/bin/**
-!Algo.API/bin/**
+# Ignore runtime BotLogs inside Game
+Game/BotLogs/

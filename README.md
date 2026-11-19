@@ -73,9 +73,9 @@ Als je klaar bent met je aanpassingen in `MyBot.cs`, sla je het bestand op (`Ctr
 
 1. Klik bovenin Visual Studio op `Build` -> `Build Solution` (of gebruik `Ctrl + Shift + B`).
 2. Controleer onderin het Output-venster of er `Build succeeded. 0 Error(s)` staat.
-3. Het gecompileerde bestand staat nu in deze map:
+3. Het gecompileerde `.dll` bestand krijgt **automatisch dezelfde naam als je bot** (wat je bij `GetName()` hebt ingevuld) en staat nu in deze map:
    ```text
-   Algo.StarterBot\bin\Debug\netstandard2.1\Algo.StarterBot.dll
+   Algo.StarterBot\bin\Debug\netstandard2.1\<JouwBotNaam>.dll
    ```
    *(Staat je configuratie bovenin Visual Studio op Release in plaats van Debug, kijk dan in `bin\Release\netstandard2.1\`).*
 
@@ -83,14 +83,15 @@ Als je klaar bent met je aanpassingen in `MyBot.cs`, sla je het bestand op (`Ctr
 
 Om je bot te testen tegen de 4 standaard oefen-bots (zodat er in totaal 5 bots in het veld spelen):
 
-1. Ga naar `Algo.StarterBot\bin\Debug\netstandard2.1\` en kopieer `Algo.StarterBot.dll`.
+1. Ga naar `Algo.StarterBot\bin\Debug\netstandard2.1\` en kopieer jouw `<JouwBotNaam>.dll`.
 2. Plak het bestand in de map:
    ```text
    Game\Bots\
    ```
-   *(Laat `DefaultOpponents.dll` en `AvatarSheet.png` in die map staan tijdens het lokaal testen, dat zijn je 4 oefen-tegenstanders en de standaard afbeeldingen).*
+   *(Laat `DefaultOpponents.dll` en `AvatarSheet.png` in die map staan tijdens het lokaal testen, dat zijn je 4 oefen-tegenstanders en de standaard afbeeldingen. Als `Starter_Bot.dll` er nog staat en je hebt je bot een nieuwe naam gegeven, verwijder dan de oude `Starter_Bot.dll` uit `Game\Bots\`).*
 3. **Optioneel - Eigen afbeelding:** Wil je een eigen afbeelding op je bot, zet dan een vierkante `.png` of `.jpg` met exact dezelfde naam als je DLL in `Game\Bots\` (bijvoorbeeld `TeamNaam.dll` en `TeamNaam.png`).
 4. Start het spel door in de map `Game\` te dubbelklikken op `AlgoTournament.exe`. Jouw bot en de 4 oefen-bots spawnen nu elk 1 keer op de map.
+   - **Camera bedienen:** Onderin het scherm staat een compacte balk (`< Camera: Meeste Actie (Auto) >`). Hiermee (of door linksboven in het Leaderboard op een naam te klikken) kun je kiezen of de camera de meeste actie volgt, alleen jouw eigen bot volgt, of een andere bot volgt.
 5. Sluit het spel weer af met `Alt + F4`.
 
 ## 5. Logs bekijken (`BotLogs`)
@@ -110,5 +111,5 @@ Gebruik die gegevens om te controleren of je bot de juiste beslissingen neemt.
 ## 6. Inleveren
 
 Voor het toernooi op het grote scherm in de klas:
-1. Hernoem je gecompileerde `Algo.StarterBot.dll` naar je eigen naam of teamnaam (bijv. `TeamNaam.dll`).
+1. Pak jouw gecompileerde `<JouwBotNaam>.dll` uit `Algo.StarterBot\bin\Debug\netstandard2.1\`.
 2. Lever de `.dll` (en eventueel je gelijknamige `.png`) in bij de docent.

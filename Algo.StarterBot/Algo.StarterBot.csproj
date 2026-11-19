@@ -9,4 +9,15 @@
     <ProjectReference Include="..\Algo.API\Algo.API.csproj" />
   </ItemGroup>
 
+  <!-- Automatically rename the compiled DLL to the exact bot name returned in MyBot.cs GetName() -->
+  <Target Name="RenameDllToBotName" AfterTargets="Build">
+    <PropertyGroup>
+      <_MyBotContent>$([System.IO.File]::ReadAllText('$(MSBuildProjectDirectory)/MyBot.cs'))</_MyBotContent>
+      <_ExtractedBotName>$([System.Text.RegularExpressions.Regex]::Match($(_MyBotContent), 'GetName\s*\(\s*\)[^{=]*(?:\{\s*return|=&gt;)\s*&quot;([^&quot;]+)&quot;').Groups[1].Value.Trim())</_ExtractedBotName>
+      <_SafeBotFileName>$([System.Text.RegularExpressions.Regex]::Replace($(_ExtractedBotName), '[^a-zA-Z0-9_\-]', '_'))</_SafeBotFileName>
+    </PropertyGroup>
+    <Move SourceFiles="$(TargetPath)" DestinationFiles="$(TargetDir)$(_SafeBotFileName).dll" Condition="'$(_SafeBotFileName)' != '' And '$(_SafeBotFileName)' != 'Algo.StarterBot'" />
+    <Message Importance="High" Text="[AlgoBot] Jouw bot DLL is gebouwd als: $(TargetDir)$(_SafeBotFileName).dll" Condition="'$(_SafeBotFileName)' != ''" />
+  </Target>
+
 </Project>

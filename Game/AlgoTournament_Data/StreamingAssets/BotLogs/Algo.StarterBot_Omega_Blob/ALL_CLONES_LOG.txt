@@ -1,0 +1,11 @@
+==========================================================
+ COMBINED TEAM LOG : Omega Blob (All Clones)
+ DLL File          : Algo.StarterBot.dll
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Omega Blob 1] Time Left: 20:00 | Start Pos: (X: 781,2, Y: 172,7) | Start Mass: 10,0
+[SPAWN] [Omega Blob 2] Time Left: 20:00 | Start Pos: (X: 1610,4, Y: 854,2) | Start Mass: 10,0
+[SPAWN] [Omega Blob 3] Time Left: 20:00 | Start Pos: (X: 1365,5, Y: 455,9) | Start Mass: 10,0
+[SPAWN] [Omega Blob 4] Time Left: 20:00 | Start Pos: (X: 778,1, Y: 1869,1) | Start Mass: 10,0
+[SPAWN] [Omega Blob 5] Time Left: 20:00 | Start Pos: (X: 1310,6, Y: 1380,0) | Start Mass: 10,0

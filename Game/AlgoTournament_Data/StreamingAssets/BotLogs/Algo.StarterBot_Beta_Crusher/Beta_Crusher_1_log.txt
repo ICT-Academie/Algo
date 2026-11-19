@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Beta Crusher 1
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Beta Crusher
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Beta Crusher 1] Time Left: 20:00 | Start Pos: (X: 500,3, Y: 1688,1) | Start Mass: 10,0
+----------------------------------------------------------

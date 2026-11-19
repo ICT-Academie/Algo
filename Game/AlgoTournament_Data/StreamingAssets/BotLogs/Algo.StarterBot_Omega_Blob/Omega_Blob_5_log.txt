@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Omega Blob 5
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Omega Blob
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Omega Blob 5] Time Left: 20:00 | Start Pos: (X: 1310,6, Y: 1380,0) | Start Mass: 10,0
+----------------------------------------------------------

@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Starter Bot 2
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Starter Bot
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Starter Bot 2] Time Left: 20:00 | Start Pos: (X: 613,4, Y: 1140,2) | Start Mass: 10,0
+----------------------------------------------------------

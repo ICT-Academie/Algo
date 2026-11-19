@@ -1,6 +1,6 @@
 # AlgoTournament - Handleiding
 
-In deze opdracht programmeer je in C# een eigen bot voor AlgoTournament. Tijdens een wedstrijd van 20 minuten spelen de bots tegen elkaar op een veld van 2000 bij 2000. Je groeit door voedselbolletjes te pakken en kleinere bots op te eten. De bot met de meeste massa aan het eind van de tijd wint.
+In dit project kun je in C# een eigen bot programmeren voor AlgoTournament. Tijdens een wedstrijd van 20 minuten spelen de bots tegen elkaar op een veld van 2000 bij 2000. Je groeit door voedselbolletjes te pakken en kleinere bots op te eten. De bot met de meeste massa aan het eind van de tijd wint.
 
 ## Overzicht van de Mappenstructuur
 

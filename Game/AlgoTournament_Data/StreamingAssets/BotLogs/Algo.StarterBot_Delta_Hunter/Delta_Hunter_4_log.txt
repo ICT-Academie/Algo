@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Delta Hunter 4
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Delta Hunter
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Delta Hunter 4] Time Left: 20:00 | Start Pos: (X: 1496,4, Y: 1473,2) | Start Mass: 10,0
+----------------------------------------------------------

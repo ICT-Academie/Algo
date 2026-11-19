@@ -1,0 +1,19 @@
+# Ignore Visual Studio temporary files and user caches
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore compiler obj folders
+**/obj/
+
+# Ignore Unity temporary folders if any
+Library/
+Temp/
+Logs/
+
+# Keep Game/Bots and compiled DLLs so students can run immediately after cloning!
+!Game/**
+!Algo.StarterBot/bin/**
+!Algo.API/bin/**

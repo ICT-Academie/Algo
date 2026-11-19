@@ -81,26 +81,26 @@ Als je klaar bent met je aanpassingen in `MyBot.cs`, sla je het bestand op (`Ctr
 
 ## 4. Lokaal testen in de game
 
-Om je bot te testen tegen de standaard bots:
+Om je bot te testen tegen de 4 standaard oefen-bots (zodat er in totaal 5 bots in het veld spelen):
 
 1. Ga naar `Algo.StarterBot\bin\Debug\netstandard2.1\` en kopieer `Algo.StarterBot.dll`.
 2. Plak het bestand in de map:
    ```text
    Game\Bots\
    ```
-   *(Laat `DefaultOpponents.dll` en `AvatarSheet.png` in die map staan, dat zijn de oefen-bots en standaard afbeeldingen).*
+   *(Laat `DefaultOpponents.dll` en `AvatarSheet.png` in die map staan tijdens het lokaal testen, dat zijn je 4 oefen-tegenstanders en de standaard afbeeldingen).*
 3. **Optioneel - Eigen afbeelding:** Wil je een eigen afbeelding op je bot, zet dan een vierkante `.png` of `.jpg` met exact dezelfde naam als je DLL in `Game\Bots\` (bijvoorbeeld `TeamNaam.dll` en `TeamNaam.png`).
-4. Start het spel door in de map `Game\` te dubbelklikken op `AlgoTournament.exe`.
+4. Start het spel door in de map `Game\` te dubbelklikken op `AlgoTournament.exe`. Jouw bot en de 4 oefen-bots spawnen nu elk 1 keer op de map.
 5. Sluit het spel weer af met `Alt + F4`.
 
 ## 5. Logs bekijken (`BotLogs`)
 
-Tijdens het spelen maakt de game voor elke bot een eigen map met logbestanden aan in:
+Tijdens het spelen maakt de game voor elke bot een eigen map met een logbestand aan in:
 ```text
-Game\BotLogs\<DLLNaam>_<BotNaam>\
+Game\BotLogs\<DLLNaam>_<BotNaam>\<BotNaam>_log.txt
 ```
 
-In het bestand `ALL_CLONES_LOG.txt` (en de losse logs per kloon) wordt elke kill en death gelogd met:
+In dit logbestand wordt elke kill en death gelogd met:
 - Het tijdstip en de `(X, Y)` coördinaten van jou en de tegenstander.
 - Het verschil in massa op het moment van raken.
 - De richting die je bot op liep (`My Last Move Direction`) en wat op dat moment de juiste vluchtrichting was geweest (`Ideal Escape Direction`).

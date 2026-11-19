@@ -1,0 +1,11 @@
+==========================================================
+ COMBINED TEAM LOG : Starter Bot (All Clones)
+ DLL File          : Algo.StarterBot.dll
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Starter Bot 1] Time Left: 20:00 | Start Pos: (X: 1943,0, Y: 23,9) | Start Mass: 10,0
+[SPAWN] [Starter Bot 2] Time Left: 20:00 | Start Pos: (X: 613,4, Y: 1140,2) | Start Mass: 10,0
+[SPAWN] [Starter Bot 3] Time Left: 20:00 | Start Pos: (X: 786,6, Y: 462,3) | Start Mass: 10,0
+[SPAWN] [Starter Bot 4] Time Left: 20:00 | Start Pos: (X: 442,0, Y: 1398,0) | Start Mass: 10,0
+[SPAWN] [Starter Bot 5] Time Left: 20:00 | Start Pos: (X: 106,8, Y: 1043,7) | Start Mass: 10,0

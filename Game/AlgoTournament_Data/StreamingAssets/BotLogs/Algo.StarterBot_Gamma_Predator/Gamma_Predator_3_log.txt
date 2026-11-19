@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Gamma Predator 3
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Gamma Predator
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Gamma Predator 3] Time Left: 20:00 | Start Pos: (X: 935,4, Y: 1286,9) | Start Mass: 10,0
+----------------------------------------------------------

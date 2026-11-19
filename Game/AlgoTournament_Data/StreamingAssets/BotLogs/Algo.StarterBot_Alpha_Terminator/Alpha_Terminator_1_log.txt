@@ -1,0 +1,9 @@
+==========================================================
+ BOT TELEMETRY LOG : Alpha Terminator 1
+ DLL File          : Algo.StarterBot.dll
+ Bot GetName()     : Alpha Terminator
+ Match Started     : 2026-11-18 10:28:22
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Alpha Terminator 1] Time Left: 20:00 | Start Pos: (X: 317,2, Y: 1421,2) | Start Mass: 10,0
+----------------------------------------------------------

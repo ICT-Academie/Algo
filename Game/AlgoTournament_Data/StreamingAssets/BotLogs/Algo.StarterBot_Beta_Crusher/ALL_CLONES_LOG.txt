@@ -1,0 +1,11 @@
+==========================================================
+ COMBINED TEAM LOG : Beta Crusher (All Clones)
+ DLL File          : Algo.StarterBot.dll
+ Match Started     : 2026-11-18 10:28:23
+ Map Dimensions    : 2000 x 2000
+==========================================================
+[SPAWN] [Beta Crusher 1] Time Left: 20:00 | Start Pos: (X: 500,3, Y: 1688,1) | Start Mass: 10,0
+[SPAWN] [Beta Crusher 2] Time Left: 20:00 | Start Pos: (X: 1621,3, Y: 1458,0) | Start Mass: 10,0
+[SPAWN] [Beta Crusher 3] Time Left: 20:00 | Start Pos: (X: 1151,5, Y: 311,4) | Start Mass: 10,0
+[SPAWN] [Beta Crusher 4] Time Left: 20:00 | Start Pos: (X: 149,2, Y: 1959,3) | Start Mass: 10,0
+[SPAWN] [Beta Crusher 5] Time Left: 20:00 | Start Pos: (X: 1288,0, Y: 1915,8) | Start Mass: 10,0
